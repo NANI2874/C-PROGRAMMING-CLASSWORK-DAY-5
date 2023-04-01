@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int student_id;
+    char student_name[50];
+    float student_gpa;
+
+    printf("Enter the student ID: ");
+    scanf("%d", &student_id);
+    printf("Enter the student name: ");
+    scanf("%s", student_name);
+    printf("Enter the student GPA: ");
+    scanf("%f", &student_gpa);
+
+    printf("Student ID: %d\n", student_id);
+    printf("Student Name: %s\n", student_name);
+    printf("Student GPA: %.2f\n", student_gpa);
+
+    return 0;
+}
